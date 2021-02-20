@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <style></style>
+  <style>
+    html,body {
+      margin: 0;
+      padding: 0;
+    }
+  .warp {
+    background-color: #ffffff;
+    height: 100vh;
+    font-family: PingFangSC-Medium, PingFang SC;
+    overflow: hidden;
+  }
+.header {
+  background-color: #010101;
+  color: #ffffff;
+  height: 70px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 70px;
+}
+.body_header {
+  width: 100%;
+  border-bottom: 1px solid #efefef;
+  padding: 14px 12px;
+}
+.body_header .body_header_title {
+    font-size: 14px;
+    color: #323232;
+  }
+  .body_header .body_header_doc {
+    padding-top: 4px;
+    font-size: 12px;
+    color: #909090;
+  }
+  .body_content {
+  font-weight: 400;
+  font-size: 13px;
+  
+}
+.body_content_item {
+    padding: 14px 12px;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    margin-left: 12px;
+    border-bottom: 1px solid #efefef;
+    justify-content: space-between;
+    
+  }
+  .left {
+      color: #8e8e8e;
+    }
+    .right {
+      padding-right: 12px;
+      color: #323232
+    }
+  </style>
+</head>
+<body>
+  <div class="warp">
+    <div class='header'>
+      河南省电子证照查验中心
+    </div>
+    <div class='body'>
+      <div class='body_header'>
+        <div class='body_header_title'>
+          建筑施工特种作业操作资格证书
+        </div>
+        <div class='body_header_doc'>
+          河南省住房和城乡建设厅
+        </div>
+      </div>
+      <div class='body_content'>
+        <div class='body_content_item' key={v.title}>
+          <div class='left'>持证者</div>
+          <div class='right'>2222222222</div>
+        </div>
+        <div class='body_content_item' key={v.title}>
+          <div class='left'>证件号</div>
+          <div class='right'>412924****5123</div>
+        </div>
+        <div class='body_content_item' key={v.title}>
+          <div class='left'>证书编码</div>
+          <div class='right'>豫A032021002230</div>
+        </div>
+        <div class='body_content_item' key={v.title}>
+          <div class='left'>发证日期</div>
+          <div class='right'>2021年02月03日</div>
+        </div>
+        <div class='body_content_item' key={v.title}>
+          <div class='left'>有效日期</div>
+          <div class='right'>2021年02月03日至2023年02月02日</div>
+        </div>
+        <div class='body_content_item' key={v.title}>
+          <div class='left'>操作类别</div>
+          <div class='right'>建筑起重机械司机（施工升降机）</div>
+        </div>
+        <div class='body_content_item' key={v.title}>
+          <div class='left'>电子证照状态</div>
+          <div class='right'>正常有效</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
